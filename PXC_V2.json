@@ -1,0 +1,26 @@
+{
+    "providerName": "myChannelName",
+    "language": "en-us",
+    "lastUpdated": "2021-03-30T18:12:32.125Z",
+    "shortFormVideos": [{
+        "id": "201708127",
+        "title": "PXC Stream",
+        "shortDescription": "A short description (<200 characters) of my video",
+        "longDescription": "A longer description (<500 characters) of my video",
+        "thumbnail": "http://myhostingsolution.com/feeds/mycontent.JPG",
+        "genres": ["comedy"],
+        "tags": ["comedy"],
+        "releaseDate": "2019-10-31",
+        "content": {
+            "dateAdded": "2019-10-31T14:14:54.431Z",
+            "captions": [],
+            "duration": 600,
+            "videos": [{
+                "url": "http://192.168.10.45:8080/hls/mainstream.m3u8",
+                "quality": "SD",
+                "videoType": "HLS",
+                "bitrate": 1000
+            }]
+        }
+    }]
+}
